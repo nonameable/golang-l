@@ -27,7 +27,7 @@ func main() {
     text, _ := reader.ReadString('\n')
     fmt.Println(text)
 
-    fmt.Println("The possible charchains that thing could make are: ")
+    fmt.Println("The possible strings that could have produced that thing are: ")
     
     for j := 0; j < 26; j++ {
         result := strings.Map(func(r rune) rune {
